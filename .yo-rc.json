@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Michael Bazos",
+      "authorEmail": "micabazos@gmail.com",
+      "authorUrl": "https://github.com/michaelbazos"
+    }
+  }
+}
