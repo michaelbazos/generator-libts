@@ -1,0 +1,18 @@
+// https://www.typescriptlang.org/docs/handbook/compiler-options.html
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es5",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true
+  },
+  "files": [
+    "./src/lib/index.ts"
+  ]
+}
