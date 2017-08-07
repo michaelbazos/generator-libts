@@ -1,7 +1,7 @@
 'use strict';
-var path = require('path');
-var assert = require('yeoman-assert');
-var helpers = require('yeoman-test');
+const path = require('path');
+const assert = require('yeoman-assert');
+const helpers = require('yeoman-test');
 
 describe('generator-libts:app', () => {
   beforeAll(() => {
@@ -11,7 +11,13 @@ describe('generator-libts:app', () => {
 
   it('creates files', () => {
     assert.file([
-      'dummyfile.txt'
+      'src/lib/index.ts',
+      '.editorconfig',
+      'package.json',
+      'tsconfig.es5.json',
+      'tsconfig.es6.json',
+      'tsconfig.umd.json',
+      'webpack.config.ts'
     ]);
   });
 });
