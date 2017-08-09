@@ -13,8 +13,7 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "yeoman",
-    "generator",
+    "yeoman-generator",
     "TypeScript",
     "ts",
     "library",
